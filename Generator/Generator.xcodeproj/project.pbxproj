@@ -515,11 +515,11 @@
 			packageReferences = (
 				654FDF5DDCA8E00AB30C627C /* XCRemoteSwiftPackageReference "TOMLKit" */,
 				3353184D432ADAA3A1181227 /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
-				4F2286D2C3C81C45B632B917 /* XCRemoteSwiftPackageReference "swift-format" */,
-				363029939C5CBC4C8DBF3C5A /* XCRemoteSwiftPackageReference "swift-syntax" */,
 				8B21E241BF00E2E25C38BB43 /* XCRemoteSwiftPackageReference "Stencil" */,
 				12B435B0A49E5C757FE0FC38 /* XCRemoteSwiftPackageReference "FileKit" */,
 				94DB3AD2FF77CD1231BF7E6C /* XCRemoteSwiftPackageReference "Rainbow" */,
+				6BA4BD7A178D76F29B1383CE /* XCRemoteSwiftPackageReference "swift-format" */,
+				4BD824AFD7197D1E4DB0A443 /* XCRemoteSwiftPackageReference "swift-syntax" */,
 				626B8647C363F00FE034AC55 /* XCRemoteSwiftPackageReference "XcodeProj" */,
 			);
 			productRefGroup = 81F0FD8DFF45C31EFB709CAF /* Products */;
@@ -921,20 +921,12 @@
 				minimumVersion = 1.2.3;
 			};
 		};
-		363029939C5CBC4C8DBF3C5A /* XCRemoteSwiftPackageReference "swift-syntax" */ = {
+		4BD824AFD7197D1E4DB0A443 /* XCRemoteSwiftPackageReference "swift-syntax" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-syntax.git";
+			repositoryURL = "https://github.com/swiftlang/swift-syntax.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 600.0.1;
-			};
-		};
-		4F2286D2C3C81C45B632B917 /* XCRemoteSwiftPackageReference "swift-format" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-format.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 600.0.0;
 			};
 		};
 		626B8647C363F00FE034AC55 /* XCRemoteSwiftPackageReference "XcodeProj" */ = {
@@ -951,6 +943,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.5.5;
+			};
+		};
+		6BA4BD7A178D76F29B1383CE /* XCRemoteSwiftPackageReference "swift-format" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftlang/swift-format.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 600.0.0;
 			};
 		};
 		8B21E241BF00E2E25C38BB43 /* XCRemoteSwiftPackageReference "Stencil" */ = {

@@ -1,5 +1,5 @@
 {
-  "originHash" : "a64ff5917cc2a5d0406bc10508197e31aa8e7eaacbc9e999a52bea35093394de",
+  "originHash" : "3b9d6c89ceff6665d93959d9f463de812fbaea7163f870e69f8fc226d0bacc6c",
   "pins" : [
     {
       "identity" : "aexml",
@@ -69,14 +69,14 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-cmark.git",
       "state" : {
-        "revision" : "f218e5d7691f78b55bfa39b367763f4612486c35",
-        "version" : "0.3.0"
+        "revision" : "3ccff77b2dc5b96b77db3da0d68d28068593fa53",
+        "version" : "0.5.0"
       }
     },
     {
       "identity" : "swift-format",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-format.git",
+      "location" : "https://github.com/swiftlang/swift-format.git",
       "state" : {
         "revision" : "65f9da9aad84adb7e2028eb32ca95164aa590e3b",
         "version" : "600.0.0"
@@ -87,14 +87,14 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-markdown.git",
       "state" : {
-        "revision" : "e4f95e2dc23097a1a9a1dfdfe3fe3ee44de77378",
-        "version" : "0.3.0"
+        "revision" : "8f79cb175981458a0a27e76cb42fee8e17b1a993",
+        "version" : "0.5.0"
       }
     },
     {
       "identity" : "swift-syntax",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/apple/swift-syntax.git",
+      "location" : "https://github.com/swiftlang/swift-syntax.git",
       "state" : {
         "revision" : "0687f71944021d616d34d922343dcef086855920",
         "version" : "600.0.1"
