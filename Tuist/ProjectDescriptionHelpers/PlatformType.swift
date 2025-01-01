@@ -24,7 +24,7 @@ public enum PlatformType: String {
         case .iOS:
             return .iOS("13.0")
         case .macOS:
-            return .macOS("10.15")
+            return .macOS("12.0")
         case .tvOS:
             return .tvOS("13.0")
         case .watchOS:
